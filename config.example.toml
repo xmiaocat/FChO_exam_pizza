@@ -1,0 +1,38 @@
+# total exam length in hours (obligatory)
+total_hours = 3.5
+
+[config]
+# slice length in hours (default: 0.5)
+div_hour = 0.5
+
+# start the timer with a specific duration in seconds
+# (default: "none" → start with the total exam time)
+start_second = "none"
+
+# list your PNGs (or use "all" to load every .png in ./images)
+# (default: ["000_default.png"])
+pizza_images = ["000_default.png", "candy.png", "labware.png"]
+
+# start index in that list (default: 0)
+pizza_init_idx = 0
+
+# when to change image (default: "none" → same as div_hour)
+pizza_change_interval = "none"
+
+# "random" or "cycle" (default: "random")
+pizza_change_policy = "random"
+
+# you can override any of the following defaults:
+canvas_size            = 800
+pizza_radius           = 300
+font_name              = "gillsansmt"
+font_size              = 56
+line_width             = 5
+separator_dash_length  = 5
+separator_gap_length   = 3
+separator_line_width   = 2
+clock_padding          = 15
+clock_background_color = [0, 0, 0, 180]
+background_color       = [0, 0, 0, 255]
+foreground_color       = [255, 255, 255, 255]
+
