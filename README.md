@@ -14,7 +14,7 @@ This digital version is meant to be used in a similar way, but with
 more flexibility and convenience.
 
 <p align="center">
-  <img src="example.png" alt="example picture of the pizza timer in action"/>
+  <img src="example.png" alt="example picture of the pizza timer in action" width="50%"/>
 </p>
 
 ---
