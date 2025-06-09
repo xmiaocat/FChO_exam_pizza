@@ -226,7 +226,8 @@ class PizzaTimer(object):
         if self.config.start_second is None:
             self.start = time.time()
         else:
-            self.start = time.time() - (total_sec - self.config.start_second)
+            self.start = time.time() \
+                - (self.total_sec - self.config.start_second)
 
     def _init_font(self) -> None:
         self.font = pygame.font.SysFont(self.config.font_name, 
