@@ -200,4 +200,5 @@ cython_debug/
 **/Thumbs.db
 
 # pizza timer configuration
-config.toml
+*.toml
+!config.example.toml
