@@ -5,7 +5,7 @@ total_hours = 3.5
 # slice length in hours (default: 0.5)
 div_hour = 0.5
 
-# start the timer with a specific duration in seconds
+# start the timer with a specific time smaller than `total_hours` in seconds
 # (default: "none" → start with the total exam time)
 start_second = "none"
 
