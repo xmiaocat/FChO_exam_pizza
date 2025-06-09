@@ -194,5 +194,10 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# MacOS
+.DS_Store
+# Windows
+**/Thumbs.db
+
 # pizza timer configuration
 config.toml
