@@ -22,8 +22,6 @@ more flexibility and convenience.
 - **Resizable window**—your canvas stays centered  
 - **TOML configuration** with sensible defaults & validation  
 
----
-
 ## Requirements
 
 - **Python 3.11+** (for `tomllib`)
