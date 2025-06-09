@@ -13,6 +13,10 @@ which is filled slice by slice with pizza toppings as the exam progresses.
 This digital version is meant to be used in a similar way, but with
 more flexibility and convenience.
 
+<p align="center">
+  <img src="example.png" alt="example picture of the pizza timer in action"/>
+</p>
+
 ---
 
 ## Features
